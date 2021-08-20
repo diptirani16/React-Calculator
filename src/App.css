@@ -68,9 +68,12 @@ button :hover {
 }
 
 .author {
-  text-align: center;
+  /* text-align: center; */
   font-family: Share Tech Mono, sans;
   margin-top: 15px;
+  text-align: left;
+  margin-left: 15px;
+  font-size: 14px;
 }
 .author a {
   text-decoration: none;

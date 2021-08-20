@@ -183,6 +183,13 @@ class Calculator extends React.Component {
             operators={this.handleOperators}
           />
         </div>
+        <div className="author">
+          {' '}
+          Designed and Coded By <br />
+          <a href="https://github.com/diptirani16" target="_blank" rel="noreferrer">
+           ~ Dipti Rani
+          </a>
+        </div>
         
       </div>
     );
@@ -193,13 +200,7 @@ class Buttons extends React.Component {
   render() {
     return (
       <div>
-        <button
-          className="jumbo"
-          id="clear"
-          onClick={this.props.initialize}
-          style={clearStyle}
-          value="AC"
-        >
+        <button className="jumbo" id="clear" onClick={this.props.initialize} style={clearStyle} value="AC">
           AC
         </button>
         <button
